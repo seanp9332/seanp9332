@@ -2,12 +2,14 @@
 @media only screen and (max-width: 450px) {
  h2 {width:94vw!important;font-size:2em!important;}
  #special{font-size:.4em!important;}
+ body{padding-bottom:5vw!important}
 
 }
 
 @media only screen and (min-width: 451px) and (max-width: 849px) {
  h2 {width:80vw!important;font-size:3em!important;}
  #special{font-size:.7em!important;}
+ body{padding-bottom:5vw!important}
 }
 
 @media only screen and (min-width: 850px) {
@@ -31,6 +33,7 @@ ba{
   border:1px solid;
   padding:1vw;
   transition:all .5s;
+ color:black;
 }
 
 .link:hover {
@@ -98,6 +101,3 @@ body{
   0%{opacity:0;padding-left:1vh}
     100%{opacity:1}
 }
-
-a{
-color:black!important;}
